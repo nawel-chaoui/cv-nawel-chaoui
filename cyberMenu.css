@@ -24,8 +24,7 @@ body .cyber-btn + .cyber-btn {
 .cyber-btn{
     font-family:'Orbitron', sans-serif;
     letter-spacing: 2px;
-    border-bottom-left-radius: 20px;
-
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 90% 100%, 0% 100%);
 }
 .cyber-btn {
     --primary: hsl(
@@ -287,4 +286,7 @@ body .cyber-btn + .cyber-btn {
 .top-header h1 {
     text-align: center;
   }
+
+
+
   
