@@ -9,14 +9,19 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family:'Orbitron', sans-serif;
-    background: linear-gradient(90deg, #eae9e1 70%, #e4b5e9 70%), #d6b0df;  
+    letter-spacing: 2px;
+    font-size: 18px;
+    background: linear-gradient(90deg, #eac6f3 16%, #ebd2ee 20%,#eae9e1 30%,#fbf5fb 60%, #e3b5ee 100%);  
 
 }
 
 body .cyber-btn + .cyber-btn {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
-
+.cyber-btn{
+    font-family:'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
 .cyber-btn {
     --primary: hsl(
         var(--primary-hue),
