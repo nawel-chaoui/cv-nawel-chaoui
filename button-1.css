@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/codebarre.jpg');
+    background-repeat: repeat-y;
+    background-size: 180px auto;
+    background-position: left top;
+}
+img {
+    max-width: 11%;
+    margin-left: 1200px;
+    margin-top: 37px;
+}
+
+        /* Creating a box with a text
+           and some stylings  */
+.speech {
+    font-family:'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    width: 650px;
+    background: black;
+    padding: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 22px;
+    color: white;
+    position: relative;
+    margin-left: 386px;
+    margin-top: -150px;
+    z-index: 1;
+}
+  
+        /* Creates triangular tip on the
+           end, for our speech bubble 
+           with some styling */
+.speech:before {
+    content: "";
+    position: absolute;
+    border-left: 20px solid black;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+    border-bottom: 20px solid transparent;
+    right: -24px;
+    top: 37px;
+    
+}
