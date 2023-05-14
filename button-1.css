@@ -51,7 +51,7 @@ body {
 }
 .etoiles {
     position : absolute;
-    top: 510px;
+    top: 520px;
     left: 880px;
 }
 .presentation {
@@ -59,4 +59,16 @@ body {
     top: 555px;
     left: 495px;
     font-weight: bold;
+}
+
+.softskills {
+    position : absolute;
+    top: 950px;
+    left: 250px;
+}
+
+.hardskills {
+    position : absolute;
+    top: 950px;
+    left: 810px;
 }
