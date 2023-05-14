@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-image: url('images/codebarre.jpg');
     background-repeat: repeat-y;
-    background-size: 180px auto;
+    background-size: 160px auto;
     background-position: left top;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 2px;
@@ -46,11 +46,17 @@ body {
 
 .border {
     position: absolute;
-    top: 450px;
-    left: 450px;
+    top: 500px;
+    left: 440px;
 }
 .etoiles {
     position : absolute;
-    top: 460px;
-    left: 890px;
+    top: 510px;
+    left: 880px;
+}
+.presentation {
+    position: absolute;
+    top: 555px;
+    left: 495px;
+    font-weight: bold;
 }
