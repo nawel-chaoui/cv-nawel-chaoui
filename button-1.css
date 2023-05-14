@@ -13,11 +13,6 @@ body {
     margin-left: 1200px;
     margin-top: 37px;
 }
-.border {
-
-        padding-block: 50px;
-}
-
   
 .speech {
     width: 650px;
@@ -53,4 +48,9 @@ body {
     position: absolute;
     top: 450px;
     left: 450px;
+}
+.etoiles {
+    position : absolute;
+    top: 460px;
+    left: 890px;
 }
