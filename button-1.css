@@ -8,6 +8,7 @@ body {
     background-position: left top;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 2px;
+    background-color: rgb(244, 236, 243);
 }
 .img-side {
     margin-left: 1200px;
@@ -26,6 +27,7 @@ body {
     margin-left: 386px;
     margin-top: -124px;
     z-index: 1;
+    
 }
   
   
@@ -44,6 +46,7 @@ body {
     
 }
 
+
 .border {
     position: absolute;
     top: 500px;
@@ -60,15 +63,48 @@ body {
     left: 495px;
     font-weight: bold;
 }
+.presentation {
+    -webkit-filter: blur(20px) grayscale(.5);
+	-webkit-transition-property: -webkit-filter;
+	-webkit-transition-duration: .4s;
+}
+.presentation:hover {
+	-webkit-filter: blur(0px) grayscale(0);
+}
 
 .softskills {
     position : absolute;
-    top: 950px;
-    left: 250px;
+    top: 990px;
+    left: 270px;
 }
 
 .hardskills {
     position : absolute;
-    top: 950px;
-    left: 810px;
+    top: 990px;
+    left: 870px;
 }
+
+.marqueurs-etoiles {
+    position : absolute;
+    top: 1150px;
+    left: 920px;
+}
+
+.marqueurs-etoiles2 {
+    position : absolute;
+    top: 1150px;
+    left: 322px;
+}
+
+.border-interest {
+    position : absolute;
+    top: 1600px;
+    left: 450px;
+}
+
+.neurones {
+    position : absolute;
+    top: 2105px;
+    left: 165px;
+}
+
