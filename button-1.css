@@ -4,19 +4,19 @@ body {
     padding: 0;
     background-image: url('images/codebarre.jpg');
     background-repeat: repeat-y;
-    background-size: 160px auto;
+    background-size: 11% auto;
     background-position: left top;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 2px;
     background-color: rgb(244, 236, 243);
+
 }
 .img-side {
-    margin-left: 1200px;
-    margin-top: 37px;
+    margin-left: 80%;
 }
   
 .speech {
-    width: 650px;
+    width: 45%;
     background: black;
     padding: 35px;
     text-align: center;
@@ -24,8 +24,8 @@ body {
     border-radius: 22px;
     color: white;
     position: relative;
-    margin-left: 386px;
-    margin-top: -124px;
+    margin-left: 24%;
+    margin-top: -6%;
     z-index: 1;
     
 }
@@ -49,18 +49,18 @@ body {
 
 .border {
     position: absolute;
-    top: 500px;
-    left: 440px;
+    top: 70%;
+    left: 30%;
 }
 .etoiles {
     position : absolute;
-    top: 520px;
-    left: 880px;
+    top: 75%;
+    left: 58%;
 }
 .presentation {
-    position: absolute;
-    top: 555px;
-    left: 495px;
+    position: relative;
+    top: 10em;
+    left: 33%;
     font-weight: bold;
 }
 .presentation {
@@ -74,37 +74,74 @@ body {
 
 .softskills {
     position : absolute;
-    top: 990px;
-    left: 270px;
+    top: 140%;
+    left: 18%;
 }
 
 .hardskills {
     position : absolute;
-    top: 990px;
-    left: 870px;
+    top: 140%;
+    left: 58%;
 }
 
 .marqueurs-etoiles {
     position : absolute;
-    top: 1150px;
-    left: 920px;
+    top: 164%;
+    left: 62%;
 }
 
 .marqueurs-etoiles2 {
     position : absolute;
-    top: 1150px;
-    left: 322px;
+    top: 164%;
+    left: 22%;
 }
 
 .border-interest {
     position : absolute;
-    top: 1600px;
-    left: 450px;
+    top: 225%;
+    left: 33%;
 }
 
 .neurones {
     position : absolute;
-    top: 2113px;
-    left: 165px;
+    top: 300%;
+    left: 12%;
 }
-
+.skills-title{
+    font-weight: bold;
+    font-size: 25px;
+    position : relative;
+    top: 19em;
+    left: 27%;
+}
+.skills-title2{
+    font-weight: bold;
+    font-size: 25px;
+    position : relative;
+    top: 18em;
+    left: 68%;
+}
+.wrinting-softskills{
+    position : relative;
+    top: 27em;
+    left: 27%;
+    font-size: 18px;
+}
+.wrinting-hardskills {
+    position : relative;
+    top: 5em;
+    left: 67%;
+    font-size: 18px;
+}
+.titleinterest {
+    position : relative;
+    top: 15em;
+    left: 43%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.interets {
+    position : relative;
+    top: 22em;
+    left: 43%;
+}
